@@ -1,0 +1,6 @@
+from functools import partial
+def square(x):
+    return x*x
+def derivative(x):
+    return 2*x
+def differnce_quotient(f,x,h):
